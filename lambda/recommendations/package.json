@@ -1,0 +1,20 @@
+{
+  "name": "farmer-platform-recommendations-lambda",
+  "version": "1.0.0",
+  "description": "Recommendations Lambda function",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.478.0",
+    "@aws-sdk/lib-dynamodb": "^3.478.0",
+    "@aws-sdk/client-bedrock-runtime": "^3.478.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.131",
+    "@types/node": "^20.10.6",
+    "typescript": "^5.3.3"
+  }
+}
